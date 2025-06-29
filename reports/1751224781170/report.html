@@ -1,0 +1,97 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Accessibility Report</title>
+      <style>
+        body {
+          font-family: 'Segoe UI', sans-serif;
+          background: #f9f9f9;
+          padding: 40px;
+          color: #333;
+        }
+        h1, h2 {
+          color: #222;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 4px;
+        }
+        .score {
+          font-size: 1.5em;
+          color: #007acc;
+        }
+        .violation {
+          background: #fff;
+          border-left: 6px solid #d9534f;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+          margin-bottom: 20px;
+          padding: 15px;
+          border-radius: 6px;
+        }
+        .badge {
+          padding: 2px 6px;
+          border-radius: 4px;
+          font-weight: bold;
+          color: white;
+          text-transform: capitalize;
+        }
+        .minor { background-color: #5bc0de; }
+        .moderate { background-color: #f0ad4e; }
+        .serious { background-color: #d9534f; }
+        .critical { background-color: #c9302c; }
+        code {
+          background: #eee;
+          padding: 2px 5px;
+          border-radius: 3px;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Accessibility Report</h1>
+      <p><strong>Scanned URL:</strong> <a href="Provided HTML Snippet" target="_blank">Provided HTML Snippet</a></p>
+      <h2>Lighthouse Accessibility Score: <span class="score">0</span></h2>
+      <h2>axe-core Violations (4 found)</h2>
+      
+    <div class="violation">
+      <h3>Elements must meet minimum color contrast ratio thresholds</h3>
+      <p><strong>Description:</strong> Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</p>
+      <p><strong>Impact:</strong> <span class="badge serious">serious</span></p>
+      <p><strong>Affected Nodes:</strong></p>
+      <ul>
+        <li><code>p</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h3>Document should have one main landmark</h3>
+      <p><strong>Description:</strong> Ensure the document has a main landmark</p>
+      <p><strong>Impact:</strong> <span class="badge moderate">moderate</span></p>
+      <p><strong>Affected Nodes:</strong></p>
+      <ul>
+        <li><code>html</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h3>Page should contain a level-one heading</h3>
+      <p><strong>Description:</strong> Ensure that the page, or at least one of its frames contains a level-one heading</p>
+      <p><strong>Impact:</strong> <span class="badge moderate">moderate</span></p>
+      <p><strong>Affected Nodes:</strong></p>
+      <ul>
+        <li><code>html</code></li>
+      </ul>
+    </div>
+  
+    <div class="violation">
+      <h3>All page content should be contained by landmarks</h3>
+      <p><strong>Description:</strong> Ensure all page content is contained by landmarks</p>
+      <p><strong>Impact:</strong> <span class="badge moderate">moderate</span></p>
+      <p><strong>Affected Nodes:</strong></p>
+      <ul>
+        <li><code>p</code></li>
+      </ul>
+    </div>
+  
+    </body>
+    </html>
+  
